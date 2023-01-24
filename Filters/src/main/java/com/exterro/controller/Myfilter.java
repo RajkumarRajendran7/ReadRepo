@@ -30,8 +30,8 @@ public class Myfilter implements Filter {
 		
 		chain.doFilter(request, response);
 	}
-	
-	
+
+// filter	
 	@Bean
     public FilterRegistrationBean<Myfilter> filter()
     {
